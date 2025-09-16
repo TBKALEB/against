@@ -32,8 +32,7 @@ export default function Home({ Component, pageProps }) {
       </div>
       <div className={styles.footer_conta}>
         <h2>
-          "No estamos a favor de nadie, pero no queremos nuestra prepa pintada
-          de verde."
+           &quot;No estamos a favor de nadie, pero no queremos nuestra prepa pintada de verde.&quot;
         </h2>
       </div>
     </div>
