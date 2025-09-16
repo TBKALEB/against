@@ -165,3 +165,99 @@ a.secondary {
     filter: invert();
   }
 }
+
+/* page.module.css */
+
+/* Contenedor principal */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* centra horizontal */
+  justify-content: center;  /* centra vertical */
+  min-height: 100vh;        /* ocupa toda la pantalla */
+  padding: 30px;
+  text-align: center;
+  background: linear-gradient(to bottom, #6c3483,  #fdfefe);
+   /* opcional, fondo suave */
+  box-sizing: border-box;
+}
+
+/* Contenedor de la info principal */
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;   /* espacio entre elementos */
+  margin-bottom: 40px;
+}
+
+/* Título principal */
+.title_conta h1 {
+  font-size: 2.5rem;
+  color: #d9d9d9;
+  margin: 0;
+  font: bold;
+}
+
+/* Subtítulo */
+.sub_conta h2 {
+  font-size: 1.5rem;
+  color: #d9d9d9;
+  margin: 0;
+}
+
+/* Imagen */
+.image_conta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image_conta img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* opcional, bordes redondeados */
+}
+
+/* Mensaje de fraude */
+.fraude_conta h1 {
+  font-size: 2rem;
+  color: #6c3483;
+  margin: 20px 0;
+  font: bold;
+
+}
+
+/* Footer */
+.footer_conta h2 {
+  font-size: 1.2rem;
+  color: #6c3483;
+  line-height: 1.4;
+  margin: 20px 0 0 0;
+}
+
+/* --- Responsivo para móviles --- */
+@media (max-width: 600px) {
+  .title_conta h1 {
+    font-size: 2rem;
+  }
+
+  .sub_conta h2 {
+    font-size: 1.2rem;
+  }
+
+  .fraude_conta h1 {
+    font-size: 1.5rem;
+  }
+
+  .footer_conta h2 {
+    font-size: 1rem;
+  }
+
+  .image_conta img {
+    width: 80%;
+    height: auto;
+  }
+}
+
+
